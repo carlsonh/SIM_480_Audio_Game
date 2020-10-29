@@ -10,6 +10,13 @@
 
 		Pass {
 			ZWrite Off
+			Cull front
+
+			Stencil {
+			ZFail invert
+			}
 		}
+
+
 	}
 }
